@@ -1,0 +1,7 @@
+length = input("Lenght of array: ")
+
+array = []
+for i in range(0, length):
+	new_number = input("#{0} ".format(i))
+	array.append(new_number)
+
